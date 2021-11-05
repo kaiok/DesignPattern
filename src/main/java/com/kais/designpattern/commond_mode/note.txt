@@ -1,0 +1,18 @@
+使用命令设计模式模拟电器的控制操作
+1.没有Switcher类的话，开关灯的操作为：
+        Bulb bulb = new Bulb();
+        bulb.on();
+        bulb.off();
+2.添加开关控制类（Switcher），开关类可以随意接入任何电器，功能更加强大了
+
+3.命令模式
+    ————上述设计中，电器Bulb与Fan都直接继承接口Switchable，使得电器设备与开关接口强耦合了，也就是说
+    该类只能控制Bulb和Fan，并不能控制电视或者其它电器，而且它们不止是开关通电这种简单行为模式了，
+    还可以有转换频道、变音量等等更多的行为
+    ————命令模式的设计（将控制器——发令者与设备-执行者，解耦）
+    3.1 Device 接口
+    3.2 TV，Radio 收音机与电视实现类
+    3.3 Command 命令接口
+    3.4 命令接口Command的实现类 SwitchCommand，ChannelCommand，VolumeCommand
+    3.5 Controller 遥控器类
+    3.6 ClientCommand 客户端类

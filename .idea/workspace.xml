@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="306377fd-b1b6-4e12-941a-69fc6daca868" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Softwares\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vXcCGXtuSB5l8IRLZSboymqPPC" />
+  <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/kais/designpattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.kais.designpattern.adaptermode.adapterofobject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\BasicStudy\DesignPattern\src\main\java\com\kais\designpattern\chain_of_responsibility_mode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BasicStudy\DesignPattern\src\main\java\com\kais\designpattern\prototypemode" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kais.designpattern.mediator_mode.nope.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kais.designpattern.mediator_mode.nope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kais.designpattern.visistor_mode.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kais.designpattern.visistor_mode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kais.designpattern.state_mode.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kais.designpattern.state_mode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kais.designpattern.mediator_mode.yeah.ClientTest" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kais.designpattern.mediator_mode.yeah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kais.designpattern.Iterator_mode.Test" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kais.designpattern.Iterator_mode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ClientTest" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="306377fd-b1b6-4e12-941a-69fc6daca868" name="Default Changelist" comment="" />
+      <created>1626711744341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626711744341</updated>
+      <workItem from="1626711748310" duration="731000" />
+      <workItem from="1626741373795" duration="10389000" />
+      <workItem from="1626795298621" duration="373000" />
+      <workItem from="1626835777871" duration="7598000" />
+      <workItem from="1626865808532" duration="16000" />
+      <workItem from="1627089362487" duration="4709000" />
+      <workItem from="1627125811520" duration="2711000" />
+      <workItem from="1627128569827" duration="4906000" />
+      <workItem from="1628003174965" duration="723000" />
+      <workItem from="1628038503232" duration="614000" />
+      <workItem from="1628492421607" duration="6908000" />
+      <workItem from="1628557887955" duration="37000" />
+      <workItem from="1628573996882" duration="4260000" />
+      <workItem from="1630306296688" duration="3453000" />
+      <workItem from="1630372254903" duration="9754000" />
+      <workItem from="1630457662128" duration="2264000" />
+      <workItem from="1630544857728" duration="8847000" />
+      <workItem from="1630660509039" duration="1195000" />
+      <workItem from="1630895517946" duration="4257000" />
+      <workItem from="1630976154956" duration="8872000" />
+      <workItem from="1631065176642" duration="5797000" />
+      <workItem from="1631084404743" duration="11000" />
+      <workItem from="1631499817663" duration="1546000" />
+      <workItem from="1631501996281" duration="6243000" />
+      <workItem from="1631581729439" duration="8048000" />
+      <workItem from="1631608952618" duration="460000" />
+      <workItem from="1631667645889" duration="7941000" />
+      <workItem from="1631676415163" duration="636000" />
+      <workItem from="1632620130951" duration="17120000" />
+      <workItem from="1632704600000" duration="13175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

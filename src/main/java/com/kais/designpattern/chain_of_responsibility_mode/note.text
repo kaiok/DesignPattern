@@ -1,0 +1,36 @@
+1.使用简单的if-else实现请假流程
+public class LeaveApproval {
+    public boolean process(String request, int number) {
+        boolean result = handleByDirector(request); // 主管处理
+        if (result == false) {  // 主管不批准
+            return false;
+        } else if (number < 3) {    // 主管批准且天数小于 3
+            return true;
+        }
+
+        result = handleByManager(request); // 准管批准且天数大于等于 3，提交给经理处理
+        if (result == false) {   // 经理不批准
+            return false;
+        } else if (number < 7) { // 经理批准且天数小于 7
+            return true;
+        }
+
+        result = handleByTopManager(request);   // 经理批准且天数大于等于 7，提交给总经理处理
+        if (result == false) { // 总经理不批准
+            return false;
+        }
+        return true;    // 总经理最后批准
+    }
+
+    public boolean handleByDirector(String request) {
+        // 主管处理该请假申请
+    }
+
+    public boolean handleByManager(String request) {
+        // 经理处理该请假申请
+    }
+
+    public boolean handleByTopManager(String request) {
+        // 总经理处理该请假申请
+    }
+}
