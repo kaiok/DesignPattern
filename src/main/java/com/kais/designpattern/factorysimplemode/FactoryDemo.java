@@ -3,7 +3,7 @@ package com.kais.designpattern.factorysimplemode;
 /**
  * 方法描述:
  *
- * @param null
+ * @param
  * @返回值 :
  * @作者 : lxk
  * 时间:2021/9/15 9:38
@@ -18,6 +18,8 @@ public class FactoryDemo {
         * */
         Car car = CarFactory.productionCar(BydCar.class);
         car.printInfo();
+        Car car1 = CarFactory.productionCar(GeelyCar.class);
+        car1.printInfo();
     }
 
 }

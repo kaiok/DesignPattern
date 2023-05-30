@@ -26,7 +26,7 @@ public class Client {
         System.out.println(obs3.getMyState());
 
         myObserverable.setState(55);
-        System.out.println("被观察者将数据更新为3000");
+        System.out.println("被观察者将数据更新为55");
         /*
         * 1.将需要更新的数据存储起来
         * 2.调用信息通知方法（进入信息通知环节）

@@ -12,12 +12,10 @@ package com.kais.designpattern.observepattern;
 public class MyObserver implements Observer {
 
     private int myState;
-
     @Override
     public void update(Observerable subject) {
         myState = ((MyObserverable)subject).getState();
     }
-
     public int getMyState(){
         return myState;
     }

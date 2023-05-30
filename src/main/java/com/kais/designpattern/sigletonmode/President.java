@@ -10,15 +10,16 @@ class President {
 
     /**
      * 保证instance在所有线程中同步
+     * volatile防止JVM指令重排
      */
-    private static volatile President instance = null;
-
+    private static /*volatile*/ President instance = null;
     /**
      * private避免类在外部被实例化
      */
     private President() {
         System.out.println("产生一个总统！");
     }
+
     static synchronized President getInstance() {
         //在getInstance方法上加同步
         if (instance == null) {
@@ -28,6 +29,7 @@ class President {
         }
         return instance;
     }
+
     void getName() {
         System.out.println("我是美国总统：特朗普。");
     }

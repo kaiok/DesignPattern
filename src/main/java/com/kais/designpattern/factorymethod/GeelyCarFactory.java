@@ -10,6 +10,7 @@ import com.kais.designpattern.factorysimplemode.GeelyCar;
 
 // 吉利汽车工厂
 public class GeelyCarFactory extends AbstractCarFactory{
+
     @Override
     Car productionCar(){
         return new GeelyCar();

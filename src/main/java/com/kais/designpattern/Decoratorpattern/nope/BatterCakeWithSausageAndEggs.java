@@ -10,11 +10,11 @@ public class BatterCakeWithSausageAndEggs extends BatterCake {
 
     @Override
     public String getYourBatterCake() {
-        return super.getYourBatterCake() + "加一个香肠";
+        return super.getYourBatterCake() + "加一个香肠，和一个鸡蛋";
     }
 
     @Override
     public int cost() {
-        return super.cost() + 2;
+        return super.cost() + 3;
     }
 }

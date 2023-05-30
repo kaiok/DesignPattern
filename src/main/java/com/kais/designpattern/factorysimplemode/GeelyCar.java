@@ -9,7 +9,7 @@ package com.kais.designpattern.factorysimplemode;
  * 方法描述:具体产品（ConcreteProduct）： 描述生产的具体产品
  *
  * @author Kais
- * @param null
+ * @param
  * @返回值 :
  * @作者 : lxk
  * 时间:2021/9/15 9:26

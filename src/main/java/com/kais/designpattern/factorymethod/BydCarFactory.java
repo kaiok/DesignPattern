@@ -9,9 +9,12 @@ import com.kais.designpattern.factorysimplemode.Car;
  */
 // 具体工厂（ConcreteFactory）,比亚迪汽车工厂
 public class BydCarFactory extends AbstractCarFactory{
+
+
     @Override
     Car productionCar(){
         //通过抽象产品，new出产品实例，并返回
         return new BydCar();
     }
+
 }
